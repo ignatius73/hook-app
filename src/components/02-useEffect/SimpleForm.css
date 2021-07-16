@@ -1,0 +1,21 @@
+body {
+    padding: 70px;
+}
+
+.container {
+    width: 95vw;
+}
+
+.formulario {
+    width: 90%;
+}
+
+.form-group {
+    margin: auto;
+    width: 100%;
+    margin-top: 0.3rem;
+}
+
+.boton {
+    margin: 0.3rem;
+}
