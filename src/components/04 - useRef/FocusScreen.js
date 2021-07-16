@@ -3,7 +3,7 @@ import '../02-useEffect/SimpleForm.css';
 
 export const FocusScreen = () => {
 
-    const inputRef = useRef()
+    const inputRef = useRef();
 
 
     const handleClick = () =>{

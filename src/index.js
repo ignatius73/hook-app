@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { TodoApp } from './components/08- useReducer/TodoApp';
 // import { CallbackHook } from './components/06 - Memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
 // import { MemoHooks } from './components/06 - Memos/MemoHooks';
 // import { FocusScreen } from './components/04 - useRef/FocusScreen';
 // import { RealExampleRef } from './components/04 - useRef/RealExampleRef';
@@ -14,23 +15,25 @@ import { Padre } from './components/07-tarea-memo/Padre';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { HookApp } from './HookApp';
 
+
 import './index.css';
 
 ReactDOM.render(
 
-    // <
-    // HookApp / >,
-    // <CounterApp />,
-    // <CounterWithCustomHook />,
-    // <SimpleForm />,
-    // <FormWithCustomHook/>,
-    // <MultipleCustomHooks />,
-    // <FocusScreen / > ,
-    // <RealExampleRef />,
-    // <LayoutEffect />,
+//     // <
+//     // HookApp / >,
+//     // <CounterApp />,
+//     // <CounterWithCustomHook />,
+//     // <SimpleForm />,
+//     // <FormWithCustomHook/>,
+//     // <MultipleCustomHooks />,
+//     // <FocusScreen / > ,
+//     // <RealExampleRef />,
+//     // <LayoutEffect />,
 
-    // <Memorize />,
-    // <CallbackHook />,
-    <Padre />,
+//     // <Memorize />,
+//     // <CallbackHook />,
+    // <Padre />,
+       <TodoApp />,
     document.getElementById('root')
 );
