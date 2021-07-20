@@ -28,5 +28,7 @@ const action = {
     payload: newTodo
 };
 
+
+
 todos = todoReducer(todos, action);
 console.log(todos)
