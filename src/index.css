@@ -1,0 +1,20 @@
+body {
+    padding: 20px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav li {
+    float: left;
+    width: 1fr;
+    list-style: none;
+    border-style: solid 1px black;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: antiquewhite;
+}
